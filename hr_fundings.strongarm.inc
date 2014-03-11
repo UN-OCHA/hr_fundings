@@ -19,13 +19,13 @@ function hr_fundings_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'path' => array(
-          'weight' => '8',
+          'weight' => '6',
         ),
         'redirect' => array(
-          'weight' => '7',
+          'weight' => '5',
         ),
         'language' => array(
-          'weight' => '6',
+          'weight' => '4',
         ),
       ),
       'display' => array(),
