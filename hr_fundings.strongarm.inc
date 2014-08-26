@@ -38,7 +38,7 @@ function hr_fundings_strongarm() {
           'weight' => '5',
         ),
         'language' => array(
-          'weight' => '4',
+          'weight' => '-10',
         ),
       ),
       'display' => array(),
