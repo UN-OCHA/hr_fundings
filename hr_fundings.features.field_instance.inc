@@ -284,8 +284,8 @@ function hr_fundings_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Body');
   t('Funding Type');
-  t('Groups audience');
   t('Name');
+  t('Space(s)');
   t('Title');
 
   return $field_instances;
