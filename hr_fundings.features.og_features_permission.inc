@@ -30,6 +30,13 @@ function hr_fundings_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:hr_operation:administer panelizer node hr_funding_method content'
+  $permissions['node:hr_operation:administer panelizer node hr_funding_method content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
   // Exported og permission: 'node:hr_operation:create hr_funding_method content'
   $permissions['node:hr_operation:create hr_funding_method content'] = array(
     'roles' => array(
