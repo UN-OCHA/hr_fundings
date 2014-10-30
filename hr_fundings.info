@@ -30,7 +30,6 @@ features[feeds_importer][] = hr_funding_types
 features[feeds_tamper][] = hr_funding_methods-spaces-explode
 features[field_base][] = field_funding_methods
 features[field_base][] = field_funding_type
-features[field_base][] = field_funding_types
 features[field_instance][] = node-hr_funding_method-body
 features[field_instance][] = node-hr_funding_method-field_funding_type
 features[field_instance][] = node-hr_funding_method-og_group_ref
