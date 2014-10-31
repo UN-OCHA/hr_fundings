@@ -77,4 +77,5 @@ features[variable][] = panelizer_defaults_node_hr_funding_method
 features[variable][] = panelizer_node:hr_funding_method_allowed_layouts_default
 features[variable][] = panelizer_node:hr_funding_method_default
 features[variable][] = pathauto_node_hr_funding_method_pattern
+features[variable][] = pathauto_node_hr_funding_pattern
 features[views_view][] = hr_fundings_panes
