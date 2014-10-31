@@ -108,3 +108,14 @@ function _hr_fundings_map_fts_country($country) {
   return $hr_country;
 }
 
+/**
+ * Implements hook_form_BASE_FORM_ID_alter()
+ * Disable field_funding_methods
+ */
+function hr_fundings_form_node_form_alter(&$form, &$form_state) {
+  global $user;
+  if (isset($form['field_funding_methods']) && !in_array('administrator', $user->roles)) {
+    $form['field_funding_methods']['#disabled'] = TRUE;
+  }
+}
+
