@@ -7,24 +7,6 @@
 include_once 'hr_fundings.features.inc';
 
 /**
- * Implements hook_og_features_registry()
- */
-function hr_fundings_og_features_registry() {
-  $registry = array();
-  $feature = new stdClass();
-  $feature->id = 'hr_fundings';
-  $feature->name = t('Funding methods');
-  $feature->description = t('Activate to provide funding methods to your space.');
-  $feature->components = array(
-    'node' => array(
-      'hr_funding_method',
-    ),
-  );
-  $registry[$feature->id] = $feature;
-  return $registry;
-}
-
-/**
  * Implements hook_cron()
  * Synchronizes the appeals with the FTS
  */
