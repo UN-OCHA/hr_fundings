@@ -32,6 +32,7 @@ function hr_fundings_cron() {
           $node->title = $appeal->title;
           $node->field_appeal_id = array(LANGUAGE_NONE => array(0 => array('value' => $appeal->id)));
           $node->field_funding_type = array(LANGUAGE_NONE => array(0 => array('target_id' => $type->tid)));
+          $node->{OG_CONTENT_ACCESS_FIELD} = array(LANGUAGE_NONE => array(0 => array('value' => OG_CONTENT_ACCESS_PUBLIC)));
           $node->path = array('pathauto' => TRUE);
           $node->uid = 1;
           $node->og_group_ref = array();

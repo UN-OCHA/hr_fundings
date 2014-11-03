@@ -171,6 +171,66 @@ function hr_fundings_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-hr_funding-group_content_access'
+  $field_instances['node-hr_funding-group_content_access'] = array(
+    'bundle' => 'hr_funding',
+    'default_value' => array(
+      0 => array(
+        'value' => 0,
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 5,
+      ),
+      'search_result' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'group_content_access',
+    'label' => 'Group content visibility',
+    'required' => TRUE,
+    'settings' => array(
+      'entity_translation_sync' => FALSE,
+      'user_register_form' => FALSE,
+    ),
+    'view modes' => array(
+      'full' => array(
+        'label' => 'above',
+        'type' => 'list_default',
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'type' => 'list_default',
+      ),
+    ),
+    'widget' => array(
+      'module' => 'options',
+      'settings' => array(
+        'apply_chosen' => '',
+      ),
+      'type' => 'options_select',
+      'weight' => 7,
+    ),
+    'widget_type' => 'options_select',
+  );
+
   // Exported field_instance: 'node-hr_funding-og_group_ref'
   $field_instances['node-hr_funding-og_group_ref'] = array(
     'bundle' => 'hr_funding',
@@ -575,6 +635,7 @@ function hr_fundings_field_default_field_instances() {
   t('Appeal ID');
   t('Body');
   t('Funding Type');
+  t('Group content visibility');
   t('Name');
   t('Space(s)');
   t('Title');
