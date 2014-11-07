@@ -13,7 +13,7 @@ include_once 'hr_fundings.features.inc';
 function hr_fundings_cron() {
   $years = array();
   $current = date('Y');
-  for($i = 2011; $i <= $current; $i++) {
+  for($i = 2010; $i <= $current; $i++) {
     $appeals = fts_get_appeals($i);
     foreach ($appeals as $appeal) {
       if ($appeal->type != 'NON-CAP' && $appeal->type != 'n/a') {
