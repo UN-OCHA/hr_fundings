@@ -35,6 +35,7 @@ features[field_base][] = field_funding_methods
 features[field_base][] = field_funding_type
 features[field_base][] = field_fundings
 features[field_instance][] = node-hr_funding-body
+features[field_instance][] = node-hr_funding-field_acronym
 features[field_instance][] = node-hr_funding-field_appeal_id
 features[field_instance][] = node-hr_funding-field_funding_type
 features[field_instance][] = node-hr_funding-group_content_access
