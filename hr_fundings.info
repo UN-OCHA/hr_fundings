@@ -31,7 +31,6 @@ features[feeds_importer][] = hr_funding_methods
 features[feeds_importer][] = hr_funding_types
 features[feeds_tamper][] = hr_funding_methods-spaces-explode
 features[field_base][] = field_appeal_id
-features[field_base][] = field_funding_methods
 features[field_base][] = field_funding_type
 features[field_base][] = field_fundings
 features[field_instance][] = node-hr_funding-body
