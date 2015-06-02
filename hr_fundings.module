@@ -11,7 +11,7 @@ include_once 'hr_fundings.features.inc';
  * Synchronizes the appeals with the FTS
  */
 function hr_fundings_cron() {
-  /*$years = array();
+  $years = array();
   $current = date('Y');
   for($i = 2010; $i <= $current; $i++) {
     $appeals = fts_get_appeals($i);
@@ -47,7 +47,7 @@ function hr_fundings_cron() {
         }
       }
     }
-  }*/
+  }
 }
 
 function _hr_fundings_map_fts_appeal_type($type) {
